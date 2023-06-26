@@ -220,7 +220,7 @@ def zerolab():
     version='10.04'
     for switch in switch_list:
         subprocess.run(["python", "utility/boot_zero.py", switch, version, switch_user, switch_password])
-        message = switch + 'was rebooted'
+        message = switch + ' was rebooted'
         logging.warning(message)
         response = write_log(db,message)
 
@@ -332,7 +332,7 @@ def reset_lab_group():
 
     # Rollback CX switches
     response = cx_zero_group(switch_user, switch_password, lab_switch_list, db)
-    
+
     #Reboot switches
     version='10.04'
     for switch in lab_switch_list:

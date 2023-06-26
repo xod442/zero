@@ -88,7 +88,7 @@ def vm_zero(vsphere_ip,vsphere_user,vsphere_pass,db):
                         when = str(datetime.datetime.now())
                         # Power Off the VM
                         vm.PowerOff()
-                        message = "%s ==> vm%s: %s has been powered OFF\n" % (counter,when,vm)
+                        message = "%s ==> vm%s: %s has been powered OFF\n" % (counter,when,vm.name)
                         logging.warning(message)
                         response = write_log(db,message)
                         # Revert VM
@@ -97,7 +97,7 @@ def vm_zero(vsphere_ip,vsphere_user,vsphere_pass,db):
                         vm.ResetVM_Task()
                         # Compose log information
                         when = str(datetime.datetime.now())
-                        message = "%s ==> vm%s: %s has been reverted and powered back ON\n" % (counter,when,vm)
+                        message = "%s ==> vm%s: %s has been reverted and powered back ON\n" % (counter,when,vm.name)
                         logging.warning(message)
                         response = write_log(db,message)
                         counter = counter + 1
