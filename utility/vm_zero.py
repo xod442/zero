@@ -120,9 +120,22 @@ def vm_zero(vsphere_ip,vsphere_user,vsphere_pass,db):
                                                      True)
 
     for dvs in dvs_list.view:
-        task = dvs.Destroy_Task()
-        response = WaitForTask(task)
+        try:
+            task = dvs.Destroy_Task()
+            response = WaitForTask(task)
+        except:
+            when = str(datetime.datetime.now())
+            message = "%s ==> %s was not deleted\n" % (when, dvs.name)
+            logging.warning(message)
+            response = write_log(db,message)
+
     dvs_list.Destroy()
+
+    dvs_list = content.viewManager.CreateContainerView(content.rootFolder,
+                                                     [vim.DistributedVirtualSwitch],
+                                                     True)
+
+
 
 
     when = str(datetime.datetime.now())

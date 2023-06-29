@@ -56,7 +56,7 @@ def cx_zero(switch_user, switch_password, db):
 
     top = 0
     bot = 0
-    for switch in lab_switch_list:
+    for switch in switch_list:
         try:
             s = Session(switch, version)
             s.open(switch_user, switch_password)
@@ -71,7 +71,7 @@ def cx_zero(switch_user, switch_password, db):
             logging.warning(message)
         top = top + 1
 
-    for switch in lab_switch_list:
+    for switch in switch_list:
 
         try:
             s = Session(switch, version)
