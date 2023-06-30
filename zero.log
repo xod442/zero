@@ -8206,3 +8206,118 @@ Log file has been reinitialized!2023-06-15 03:37:28,530 172.19.0.1 - - [15/Jun/2
 2023-06-29 22:17:44,156 172.19.0.1 - - [29/Jun/2023 22:17:44] "[36mGET /static/js/jquery.countTo.min.js HTTP/1.1[0m" 304 -
 2023-06-29 22:17:44,158 172.19.0.1 - - [29/Jun/2023 22:17:44] "[36mGET /static/js/jquery.shuffle.min.js HTTP/1.1[0m" 304 -
 2023-06-29 22:17:44,161 172.19.0.1 - - [29/Jun/2023 22:17:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2023-06-30 23:21:57,741 Top Loop-Trip - 0____Set rollback to startup-config 10.250.201.101
+2023-06-30 23:21:58,261 Top Loop-Trip - 1____Set rollback to startup-config 10.250.201.102
+2023-06-30 23:21:58,775 Top Loop-Trip - 2____Set rollback to startup-config 10.250.202.101
+2023-06-30 23:21:59,283 Top Loop-Trip - 3____Set rollback to startup-config 10.250.202.102
+2023-06-30 23:21:59,812 Top Loop-Trip - 4____Set rollback to startup-config 10.250.203.101
+2023-06-30 23:22:00,330 Top Loop-Trip - 5____Set rollback to startup-config 10.250.203.102
+2023-06-30 23:22:00,852 Top Loop-Trip - 6____Set rollback to startup-config 10.250.204.101
+2023-06-30 23:22:01,369 Top Loop-Trip - 7____Set rollback to startup-config 10.250.204.102
+2023-06-30 23:22:01,885 Top Loop-Trip - 8____Set rollback to startup-config 10.250.205.101
+2023-06-30 23:22:02,405 Top Loop-Trip - 9____Set rollback to startup-config 10.250.205.102
+2023-06-30 23:22:02,928 Top Loop-Trip - 10____Set rollback to startup-config 10.250.206.101
+2023-06-30 23:22:03,463 Top Loop-Trip - 11____Set rollback to startup-config 10.250.206.102
+2023-06-30 23:22:03,979 Top Loop-Trip - 12____Set rollback to startup-config 10.250.207.101
+2023-06-30 23:22:04,505 Top Loop-Trip - 13____Set rollback to startup-config 10.250.207.102
+2023-06-30 23:22:05,031 Top Loop-Trip - 14____Set rollback to startup-config 10.250.208.101
+2023-06-30 23:22:05,559 Top Loop-Trip - 15____Set rollback to startup-config 10.250.208.102
+2023-06-30 23:22:06,078 Top Loop-Trip - 16____Set rollback to startup-config 10.250.209.101
+2023-06-30 23:22:06,607 Top Loop-Trip - 17____Set rollback to startup-config 10.250.209.102
+2023-06-30 23:22:07,118 Top Loop-Trip - 18____Set rollback to startup-config 10.250.210.101
+2023-06-30 23:22:07,683 Top Loop-Trip - 19____Set rollback to startup-config 10.250.210.102
+2023-06-30 23:22:10,191 Bottom Loop-Trip - 0____Set rollback to running-config 10.250.201.101
+2023-06-30 23:22:12,671 Bottom Loop-Trip - 1____Set rollback to running-config 10.250.201.102
+2023-06-30 23:22:15,156 Bottom Loop-Trip - 2____Set rollback to running-config 10.250.202.101
+2023-06-30 23:22:17,608 Bottom Loop-Trip - 3____Set rollback to running-config 10.250.202.102
+2023-06-30 23:22:20,125 Bottom Loop-Trip - 4____Set rollback to running-config 10.250.203.101
+2023-06-30 23:22:22,624 Bottom Loop-Trip - 5____Set rollback to running-config 10.250.203.102
+2023-06-30 23:22:25,131 Bottom Loop-Trip - 6____Set rollback to running-config 10.250.204.101
+2023-06-30 23:22:27,617 Bottom Loop-Trip - 7____Set rollback to running-config 10.250.204.102
+2023-06-30 23:22:30,134 Bottom Loop-Trip - 8____Set rollback to running-config 10.250.205.101
+2023-06-30 23:22:32,621 Bottom Loop-Trip - 9____Set rollback to running-config 10.250.205.102
+2023-06-30 23:22:35,131 Bottom Loop-Trip - 10____Set rollback to running-config 10.250.206.101
+2023-06-30 23:22:37,629 Bottom Loop-Trip - 11____Set rollback to running-config 10.250.206.102
+2023-06-30 23:22:40,145 Bottom Loop-Trip - 12____Set rollback to running-config 10.250.207.101
+2023-06-30 23:22:42,662 Bottom Loop-Trip - 13____Set rollback to running-config 10.250.207.102
+2023-06-30 23:22:45,199 Bottom Loop-Trip - 14____Set rollback to running-config 10.250.208.101
+2023-06-30 23:22:47,687 Bottom Loop-Trip - 15____Set rollback to running-config 10.250.208.102
+2023-06-30 23:22:50,200 Bottom Loop-Trip - 16____Set rollback to running-config 10.250.209.101
+2023-06-30 23:22:52,706 Bottom Loop-Trip - 17____Set rollback to running-config 10.250.209.102
+2023-06-30 23:22:55,253 Bottom Loop-Trip - 18____Set rollback to running-config 10.250.210.101
+2023-06-30 23:22:57,791 Bottom Loop-Trip - 19____Set rollback to running-config 10.250.210.102
+2023-06-30 23:22:57,791 ==================== ALL SWITCHES ARE ZERO ====================
+2023-06-30 23:22:58,044 10.250.201.101 was rebooted
+2023-06-30 23:22:58,274 10.250.201.102 was rebooted
+2023-06-30 23:22:58,497 10.250.202.101 was rebooted
+2023-06-30 23:22:58,725 10.250.202.102 was rebooted
+2023-06-30 23:22:58,942 10.250.203.101 was rebooted
+2023-06-30 23:22:59,176 10.250.203.102 was rebooted
+2023-06-30 23:22:59,401 10.250.204.101 was rebooted
+2023-06-30 23:22:59,616 10.250.204.102 was rebooted
+2023-06-30 23:22:59,837 10.250.205.101 was rebooted
+2023-06-30 23:23:00,056 10.250.205.102 was rebooted
+2023-06-30 23:23:00,279 10.250.206.101 was rebooted
+2023-06-30 23:23:00,506 10.250.206.102 was rebooted
+2023-06-30 23:23:00,729 10.250.207.101 was rebooted
+2023-06-30 23:23:00,939 10.250.207.102 was rebooted
+2023-06-30 23:23:01,157 10.250.208.101 was rebooted
+2023-06-30 23:23:01,376 10.250.208.102 was rebooted
+2023-06-30 23:23:01,598 10.250.209.101 was rebooted
+2023-06-30 23:23:01,828 10.250.209.102 was rebooted
+2023-06-30 23:23:02,058 10.250.210.101 was rebooted
+2023-06-30 23:23:02,279 10.250.210.102 was rebooted
+2023-06-30 23:23:02,368 0 ==> vm2023-06-30 23:23:02.357447: LG07-PSM has been powered OFF
+
+2023-06-30 23:23:05,727 0 ==> vm2023-06-30 23:23:05.726365: LG07-PSM has been reverted and powered back ON
+
+2023-06-30 23:23:05,735 1 ==> vm2023-06-30 23:23:05.731846: LG07-WL02-V10 has been powered OFF
+
+2023-06-30 23:23:21,217 1 ==> vm2023-06-30 23:23:21.215719: LG07-WL02-V10 has been reverted and powered back ON
+
+2023-06-30 23:23:21,225 2 ==> vm2023-06-30 23:23:21.220954: LG07-AFC has been powered OFF
+
+2023-06-30 23:23:38,347 2 ==> vm2023-06-30 23:23:38.345872: LG07-AFC has been reverted and powered back ON
+
+2023-06-30 23:23:38,357 3 ==> vm2023-06-30 23:23:38.351883: LG07-WL01-V10 has been powered OFF
+
+2023-06-30 23:24:05,614 3 ==> vm2023-06-30 23:24:05.611136: LG07-WL01-V10 has been reverted and powered back ON
+
+2023-06-30 23:24:05,625 4 ==> vm2023-06-30 23:24:05.620429: LG06-AFC has been powered OFF
+
+2023-06-30 23:24:08,261 4 ==> vm2023-06-30 23:24:08.260479: LG06-AFC has been reverted and powered back ON
+
+2023-06-30 23:24:08,272 5 ==> vm2023-06-30 23:24:08.267716: LG06-WL02-V10-102 has been powered OFF
+
+2023-06-30 23:24:23,793 5 ==> vm2023-06-30 23:24:23.792670: LG06-WL02-V10-102 has been reverted and powered back ON
+
+2023-06-30 23:24:23,805 6 ==> vm2023-06-30 23:24:23.800014: LG06-PSM has been powered OFF
+
+2023-06-30 23:24:43,044 6 ==> vm2023-06-30 23:24:43.043064: LG06-PSM has been reverted and powered back ON
+
+2023-06-30 23:24:43,052 7 ==> vm2023-06-30 23:24:43.048272: LG06-WL01-V10-101 has been powered OFF
+
+2023-06-30 23:24:58,412 7 ==> vm2023-06-30 23:24:58.411116: LG06-WL01-V10-101 has been reverted and powered back ON
+
+2023-06-30 23:24:58,421 8 ==> vm2023-06-30 23:24:58.416698: LG08-AFC has been powered OFF
+
+2023-06-30 23:25:00,775 8 ==> vm2023-06-30 23:25:00.774109: LG08-AFC has been reverted and powered back ON
+
+2023-06-30 23:25:00,793 9 ==> vm2023-06-30 23:25:00.786385: LG08-PSM has been powered OFF
+
+2023-06-30 23:25:19,499 9 ==> vm2023-06-30 23:25:19.493993: LG08-PSM has been reverted and powered back ON
+
+2023-06-30 23:25:19,507 10 ==> vm2023-06-30 23:25:19.503889: LG08-WL02-v10-102 has been powered OFF
+
+2023-06-30 23:25:46,673 10 ==> vm2023-06-30 23:25:46.663518: LG08-WL02-v10-102 has been reverted and powered back ON
+
+2023-06-30 23:25:46,692 11 ==> vm2023-06-30 23:25:46.687126: LG08-WL01-V10-101 has been powered OFF
+
+2023-06-30 23:26:04,627 11 ==> vm2023-06-30 23:26:04.625073: LG08-WL01-V10-101 has been reverted and powered back ON
+
+2023-06-30 23:26:04,641 12 ==> vm2023-06-30 23:26:04.633608: LG10-AFC has been powered OFF
+
+2023-06-30 23:26:07,289 12 ==> vm2023-06-30 23:26:07.288055: LG10-AFC has been reverted and powered back ON
+
+2023-06-30 23:26:07,297 13 ==> vm2023-06-30 23:26:07.293695: LG10-WL01-V10-101 has been powered OFF
+
